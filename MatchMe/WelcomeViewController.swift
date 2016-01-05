@@ -37,7 +37,7 @@ class WelcomeViewController: UIViewController {
     
     @IBAction func checkBestScoreButtonPressed(_: AnyObject) {
         //TODO:
-        print("best score tapped!")
+        print("Best score tapped!")
     }
     
 }
