@@ -234,12 +234,15 @@ class GameViewController: UIViewController, UICollectionViewDelegate, UICollecti
         case .Easy:
             levelRowNumber = 2
             levelColumnNumber = 4
+            self.titleLabel.text = "Level 1"
         case .Normal:
             levelRowNumber = 3
             levelColumnNumber = 4
+            self.titleLabel.text = "Level 2"
         case .Hard:
             levelRowNumber = 3
             levelColumnNumber = 6
+            self.titleLabel.text = "Level 3"
         }
     }
     
